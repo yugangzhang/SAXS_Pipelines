@@ -6,8 +6,8 @@
 
 import sys, os
 #SciAnalysis_PATH='/home/kyager/current/code/SciAnalysis/main/'
-#SciAnalysis_PATH='/nsls2/xf11bm/software/SciAnalysis/'
-SciAnalysis_PATH='/home/group/Software/SciAnalysis/'
+SciAnalysis_PATH='/nsls2/xf11bm/software/SciAnalysis/'
+#SciAnalysis_PATH='/home/group/Software/SciAnalysis/'
 SciAnalysis_PATH in sys.path or sys.path.append(SciAnalysis_PATH)
 
 import glob
@@ -77,7 +77,7 @@ pattern = 'DJ_single_crystal_2*' #'*2538339*'
 #pattern = '*27145*'
 #pattern = 'DJ_test2_th0.500*'
 #pattern = '*2556952*'
-pattern = '*2714556*'
+#pattern = '*2714556*'
 
 print(source_dir)
 
